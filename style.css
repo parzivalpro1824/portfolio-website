@@ -1,0 +1,135 @@
+/* =========================
+   GENERAL PAGE STYLING
+   ========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   HEADER
+   ========================= */
+
+header {
+    background-color: #7c3aed;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+
+/* =========================
+   SECTIONS
+   ========================= */
+
+section {
+    background-color: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =========================
+   SECTION HEADINGS
+   ========================= */
+
+section h2 {
+    color: #2563eb;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    color: #1e40af;
+}
+
+
+/* =========================
+   ABOUT ME
+   ========================= */
+
+section p {
+    font-size: 17px;
+}
+
+
+/* =========================
+   SKILLS
+   ========================= */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    background-color: #e0ecff;
+    color: #1e40af;
+    padding: 10px 18px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+
+/* =========================
+   PROJECTS
+   ========================= */
+
+section h3 {
+    margin-top: 25px;
+}
+
+section h3 + p {
+    background-color: #f1f5f9;
+    padding: 15px;
+    border-left: 4px solid #2563eb;
+    border-radius: 5px;
+}
+
+
+/* =========================
+   CAREER GOAL
+   ========================= */
+
+section:last-of-type p {
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
